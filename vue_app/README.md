@@ -4,6 +4,8 @@ Create the Boiler Plate
 
 npm create vue@latest  ## Give your project a name "vue_app" Accept all Defaults
 
+cd vue_app
+
 npm install
 
 This template should help get you started developing with Vue 3 in Vite.
