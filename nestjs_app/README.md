@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+npm i -g @nestjs/cli
+nest new nestjs_app ## Select npm as the package manager
+cd nestjs_app
+npm install
+npm run start
+
 ## Installation
 
 ```bash
@@ -71,3 +77,5 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+https://dawchihliou.github.io/articles/the-last-dockerfile-you-need-for-nestjs
