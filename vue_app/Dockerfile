@@ -7,5 +7,5 @@ RUN npm run build
 
 FROM nginx
 RUN mkdir /app
-COPY --from=build /app/dist /app
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /app/dist /app
